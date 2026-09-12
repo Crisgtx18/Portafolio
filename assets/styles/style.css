@@ -1,15 +1,20 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { background: #000; }
+html { height: 100%; background: #000; }
+
+html, body { overflow-x: hidden; }
 
 body { font-family: 'Rajdhani', sans-serif; color: #fff;
-    line-height: 1.6; position: relative;
+    line-height: 1.6; position: relative; min-height: 100vh;
     background:
         radial-gradient(circle at 50% 20%, rgba(0,229,255,.12) 0%, transparent 55%),
         radial-gradient(circle at 80% 90%, rgba(0,229,255,.08) 0%, transparent 55%),
         #000;
     background-attachment: fixed;
-    animation: entrada-pagina 0.4s ease-out; }
+    animation: entrada-pagina 0.5s ease-out; }
+
+/* PÁGINA DE INICIO SIN SCROLL */
+body.pagina-inicio { overflow: hidden; height: 100vh; }
 
 /* FONDO DE CUADRÍCULA CYBERPUNK */
 body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
@@ -32,8 +37,10 @@ body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; heigh
     text-shadow: 0 0 10px rgba(0,229,255,.8); }
 
 /* INICIO */
-.seccion-inicio { min-height: 100vh; display: flex; align-items: center; justify-content: center;
-    text-align: center; padding: 6rem 1.5rem 2rem; position: relative; z-index: 1; }
+.seccion-inicio { height: 100vh; display: flex; align-items: center; justify-content: center;
+    flex-direction: column; text-align: center; padding: 0 1.5rem;
+    position: relative; z-index: 1; box-sizing: border-box; }
+.contenido-inicio { margin-top: 2rem; }
 .contenido-inicio h1 { font-family: 'Orbitron', sans-serif; font-size: 3rem; margin-bottom: 1rem;
     text-shadow: 0 0 20px rgba(0,229,255,.3); }
 .resaltado { color: #00e5ff;
@@ -111,4 +118,5 @@ body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; heigh
     .contenido-inicio h2 { font-size: 1rem; }
     .titulo-seccion { font-size: 1.6rem; }
     .pagina-contenido { padding-top: 10rem; }
+    .seccion-inicio { padding: 0 1rem; }
 }
