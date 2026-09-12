@@ -120,3 +120,87 @@ body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; heigh
     .pagina-contenido { padding-top: 10rem; }
     .seccion-inicio { padding: 0 1rem; }
 }
+
+/*  OLD CODE
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Rajdhani', sans-serif; background: #000; color: #fff; line-height: 1.6; }
+
+
+.barra-navegacion { position: fixed; top: 0; width: 100%; background: rgba(0,0,0,.9);
+    border-bottom: 1px solid #00e5ff33; padding: 1rem 0; z-index: 100; }
+.contenedor-navegacion { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem;
+    display: flex; justify-content: space-between; align-items: center; }
+.contenedor-navegacion img { height: 45px; border-radius: 5px; }
+.enlaces-navegacion { display: flex; list-style: none; gap: 2rem; }
+.enlaces-navegacion a { color: #fff; text-decoration: none; font-weight: 600; transition: color .3s; }
+.enlaces-navegacion a:hover, .enlaces-navegacion a.activo { color: #00e5ff; }
+
+
+.seccion-inicio { min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    text-align: center; padding: 6rem 1.5rem 2rem; }
+.contenido-inicio h1 { font-family: 'Orbitron', sans-serif; font-size: 3rem; margin-bottom: 1rem; }
+.resaltado { color: #00e5ff; }
+.contenido-inicio h2 { font-size: 1.3rem; color: #aaa; font-weight: 400; margin-bottom: 1rem; }
+.contenido-inicio p { color: #aaa; margin-bottom: 2rem; }
+.botones-inicio, .botones-contacto { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+
+.boton-primario, .boton-secundario { display: inline-block; padding: .8rem 1.8rem; font-weight: 700;
+    text-decoration: none; text-transform: uppercase; letter-spacing: 1px; border-radius: 4px;
+    border: 2px solid #00e5ff; transition: all .3s; }
+.boton-primario { background: #00e5ff; color: #000; }
+.boton-primario:hover { background: transparent; color: #00e5ff; }
+.boton-secundario { background: transparent; color: #00e5ff; }
+.boton-secundario:hover { background: #00e5ff; color: #000; }
+
+
+.seccion { padding: 4rem 1.5rem; max-width: 1100px; margin: 0 auto; }
+.pagina-contenido { padding-top: 8rem; min-height: calc(100vh - 100px); }
+.titulo-seccion { font-family: 'Orbitron', sans-serif; font-size: 2.2rem; text-align: center;
+    color: #00e5ff; letter-spacing: 3px; margin-bottom: 2.5rem; }
+.titulo-seccion::after { content: ''; display: block; width: 70px; height: 3px;
+    background: #00e5ff; margin: .8rem auto 0; }
+
+
+.contenido-sobre-mi { max-width: 800px; margin: 0 auto; color: #aaa; font-size: 1.1rem; }
+.contenido-sobre-mi p { margin-bottom: 1.2rem; }
+.contenido-sobre-mi strong { color: #00e5ff; }
+
+
+.cuadricula-habilidades { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; }
+.tarjeta-habilidad { background: #111; padding: 1.8rem; border-radius: 8px;
+    border: 1px solid #00e5ff33; text-align: center; transition: all .3s; }
+.tarjeta-habilidad:hover { border-color: #00e5ff; transform: translateY(-4px); }
+.tarjeta-habilidad h3 { font-family: 'Orbitron', sans-serif; color: #00e5ff;
+    margin-bottom: .6rem; font-size: 1.1rem; }
+.tarjeta-habilidad p { color: #aaa; }
+
+
+.cuadricula-proyectos { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+.tarjeta-proyecto { background: #111; padding: 1.8rem; border-radius: 8px;
+    border: 1px solid #00e5ff33; transition: all .3s; }
+.tarjeta-proyecto:hover { border-color: #00e5ff; transform: translateY(-4px); }
+.tarjeta-proyecto h3 { font-family: 'Orbitron', sans-serif; color: #00e5ff; margin-bottom: .8rem; }
+.tarjeta-proyecto p { color: #aaa; margin-bottom: 1.2rem; }
+.enlace-proyecto { color: #00e5ff; text-decoration: none; font-weight: 700; }
+.enlace-proyecto:hover { text-decoration: underline; }
+
+
+.texto-contacto { text-align: center; color: #aaa; font-size: 1.2rem; margin-bottom: 2rem; }
+
+
+.pie-pagina { text-align: center; padding: 2rem; border-top: 1px solid #00e5ff33;
+    color: #aaa; font-size: .9rem; }
+
+
+@media (max-width: 768px) {
+    .contenedor-navegacion { flex-direction: column; gap: 1rem; }
+    .enlaces-navegacion { gap: 1.2rem; flex-wrap: wrap; justify-content: center; }
+    .contenido-inicio h1 { font-size: 2rem; }
+    .contenido-inicio h2 { font-size: 1rem; }
+    .titulo-seccion { font-size: 1.6rem; }
+    .pagina-contenido { padding-top: 10rem; }
+}
+
+*/
