@@ -42,6 +42,7 @@ Sitio web multipágina con diseño cyberpunk minimalista en negro y cyan, creado
 
 ## Estructura del proyecto
 
+```
 portafolio/
 ├── index.html
 ├── sobre-mi.html
@@ -54,7 +55,7 @@ portafolio/
     │   └── style.css
     └── pictures/
         └── chanel_logo.jpg
-
+```
 ---
 
 ## Sobre mí
