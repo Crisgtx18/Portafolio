@@ -84,7 +84,7 @@ Tecnologías con las que trabajo:
 
 | Proyecto | Descripción |
 |---|---|
-| [Mokulandia](https://github.com/Crisgtx18/Game_Abyss) | Juego de supervivencia 2D en Python + Pygame. Mundo procedural, crafteo, misiones y jefe final |
+| [UnderDown](https://github.com/Crisgtx18/Game_Abyss) | Juego de supervivencia 2D en Python + Pygame. Mundo procedural, crafteo, misiones y jefe final |
 | [Motor Gráfico 2D](https://github.com/Crisgtx18/Motor-Grafico-2D) | Motor de juegos 2D propio con tiled, scroll y colisiones |
 | [Curriculum](https://github.com/Crisgtx18/Curriculum) | Currículum en HTML con 6 versiones y exportación a PDF |
 
